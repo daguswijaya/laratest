@@ -18,4 +18,4 @@ ENV LOG_CHANNEL stderr
 ENV COMPOSER_ALLOW_SUPERUSER 1
 
 # CMD bash -c "composer install && php artisan config:clear && php artisan jetstream:install livewire && npm install && php artisan migrate && /start.sh"
-CMD bash -c "composer install && php artisan migrate && /start.sh"
+CMD bash -c "composer install && /start.sh"
